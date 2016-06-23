@@ -11,6 +11,6 @@ class SearchController < ApplicationController
 
   private
     def search_param
-      params.require(:search)
+      params.require(:query)
     end
 end
